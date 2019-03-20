@@ -4,7 +4,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 // Internal CSS and Components
-import './global/global.css';
+import './global/global.scss';
 import App from './App';
 
 // Service Worker
