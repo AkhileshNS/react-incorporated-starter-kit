@@ -11,5 +11,5 @@ const Home = () => {
   </HomeContainer>;
 }
 
-const mapStoresToProps = ({}) => ({});
+const mapStoresToProps = () => ({});
 export default inject(mapStoresToProps)(observer(Home));
