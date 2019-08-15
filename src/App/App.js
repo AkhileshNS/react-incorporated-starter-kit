@@ -11,6 +11,9 @@ import Controller from 'App/App.controller';
 // Pages
 import Home from 'Home/Home';
 
+// Global Functions
+import {log} from 'global/functions';
+
 // Routes
 const routes = [{
   name: /^Home$/,
@@ -18,6 +21,8 @@ const routes = [{
 }]
 
 const App = props => {
+  log("[App] [Props] ", dClone(props));
+
   // By Value
   const {
     trigger = false,
