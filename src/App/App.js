@@ -1,11 +1,18 @@
 // External Modules
 import React from 'react';
+import {observer, inject} from 'mobx-react';
+import {derive} from 'elegant-standard';
+
+// Local Styles
+import {AppContainer} from './App.styles';
 
 const App = () => {
   return (
-    <div>
-    </div>
+    <AppContainer>
+    </AppContainer>
   );
 }
 
-export default App;
+const mapStoresToProps = derive({});
+
+export default inject(mapStoresToProps)(observer(App));

@@ -1,5 +1,5 @@
 // External Modules
-import React from 'react';
+import React, {Fragment} from 'react';
 import ReactDOM from 'react-dom';
 import {Provider} from 'mobx-react';
 
@@ -12,10 +12,10 @@ import * as serviceWorker from './serviceWorker';
 import {GlobalStyle} from 'global/styles';
 
 const app = <Provider {...stores}>
-  <React.Fragment>
+  <Fragment>
     <App />
     <GlobalStyle />
-  </React.Fragment>
+  </Fragment>
 </Provider>;
 
 ReactDOM.render(app, document.getElementById('root'));
