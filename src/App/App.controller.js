@@ -1,8 +1,9 @@
 // External Modules
 import {Component} from 'react';
 
-// Global Functions
+// Global Functions and Database
 import {log} from 'global/functions';
+// import db from 'global/database';
 
 class Controller extends Component {
   componentDidMount() {
