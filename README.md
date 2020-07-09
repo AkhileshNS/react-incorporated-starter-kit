@@ -12,4 +12,6 @@ This is my personal React Starter Kit
 
 4. **Utilities**: Lodash, Immer
 
-5. **Styling**: Material UI [OR] Blueprint [OR] Emotion
+5. **Styling**: Emotion
+
+6. **UI**: Material UI [OR] Blueprint

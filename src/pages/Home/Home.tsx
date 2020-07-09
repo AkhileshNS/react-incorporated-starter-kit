@@ -1,5 +1,6 @@
 import React from 'react';
 import { Store } from 'App/App.store';
+import { Container } from './Home.styles';
 
 interface IProps {
   counter: number;
@@ -9,13 +10,13 @@ interface IProps {
 
 const Home: React.FC<IProps> = (props) => {
   return (
-    <div>
+    <Container>
       <p>Learn React</p>
       <button onClick={props.increment}>increment</button>
       <br />
       <p>{props.counter}</p>
       <button onClick={props.decrement}>decrement</button>
-    </div>
+    </Container>
   );
 };
 
