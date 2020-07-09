@@ -7,3 +7,7 @@ This is my personal React Starter Kit
 1. **State Management**: unstated-next
 
 2. **Routing**: react-router
+
+3. **Testing**: Enzyme
+
+4. **Utilities**: Lodash, Immer
